@@ -59,7 +59,7 @@ function Dashboard() {
             <tr>
               <td>{data.id}</td>
               <td>
-                <a href={data.clone_url} target="_blank">
+                <a rel="noreferrer" href={data.clone_url} target="_blank">
                   {data.clone_url}
                 </a>
               </td>
